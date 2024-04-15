@@ -1,0 +1,3 @@
+docker pull centos:7
+docker run -d --name=demo centos:7
+docker exec -it demo bash
